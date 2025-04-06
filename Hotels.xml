@@ -1,0 +1,172 @@
+{
+  "Hotels": {
+    <!--Hotel 1-->
+    "Hotel": [
+      {
+        "Name": "Westin",
+        "Phone": [
+          "480-968-8885",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "11",
+          "Street": "E 7th St",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 2-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 3-->
+      {
+        "Name": "Hotel Tempest",
+        "Phone": [
+          "480-968-3451"
+        ],
+        "Address": {
+          "Number": "1375",
+          "Street": "E University Dr",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.1"
+      },
+      <!--Hotel 4-->
+      {
+        "Name": "DoubleTree by Hilton Hotel",
+        "Phone": [
+          "480-968-3451"
+        ],
+        "Address": {
+          "Number": "2100",
+          "Street": "S Priest Dr",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 5-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 6-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 7-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 8-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 9-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      },
+      <!--Hotel 10-->
+      {
+        "Name": "Moxy Phoenix Tempe/ASU Area",
+        "Phone": [
+          "480-968-3451",
+          "800-937-8461"
+        ],
+        "Address": {
+          "Number": "1333",
+          "Street": "S Rural Rd,",
+          "City": "Tempe",
+          "State": "AZ",
+          "Zip": "85281",
+          "_NearestAirport": "Sky Harbor"
+        },
+        "_Rating": "4.2"
+      }
+    ]
+  }
+}
