@@ -1,58 +1,54 @@
-<!--wrote Hotel instead of Hotels-->
 <Hotel>
-    <!--Hotel 1-->
-    <!--Removed address tag-->
-  <Hotel Rating="4.2">
-    <Name>Westin</Name>
-    <Address NearestAirport="Sky Harbor">
-    <Phone>480-968-8885</Phone>
-    <Phone>800-937-8461</Phone>
-      <Number>11</Number>
-      <Street>E 7th St</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-
-  </Hotel>
-    <!--Hotel 2-->
-    <!--Removed phone number-->
-  <Hotel Rating="4.1">
-    <Name>Hotel Tempest</Name>
-    <Address NearestAirport="Sky Harbor">
-      <Number>1375</Number>
-      <Street>E University Dr</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <!--Hotel 3--> 
-  <!--Removed nearest airport tag-->
-  <Hotel Rating="4.2">
-    <Name>World of Hyatt</Name>
-    <Phone>800-233-1234</Phone>
-    <Address>
-      <Number>601</Number>
-      <Street>E. 6th Street</Street>
-      <City>Tempe</City>
-      <State>AZ</State>
-      <Zip>85281</Zip>
-    </Address>
-  </Hotel>
-  <!--Hotel 4-->
-  <!--two name attributes-->
-   <Hotel Rating="4.5">
-    <Name>Holiday Inn Express and Suites</Name>
-    <Name>Hyatt Holiday Inn by Hilton</Name>
-    <Phone>877-666-3243</Phone>
-    <Address NearestAirport="Sky Harbor">
-      <Number>800</Number>
-      <Street>North 44th Street</Street>
-      <City>Phoenix</City>
-      <State>AZ</State>
-      <Zip>85008</Zip>
-    </Address>
-  </Hotel>
+    <!-- Hotel 1: Address has no closing tag -->
+    <Hotel Rating="4.2">
+        <Name>Westin</Name>
+        <Phone>480-968-8885</Phone>
+        <Phone>800-937-8461</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>11</Number>
+            <Street>E 7th St</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        <!-- No </Address> closing tag -->
+    
+    <!-- Hotel 2: Missing Phone element -->
+    <Hotel Rating="4.1">
+        <Name>Hotel Tempest</Name>
+        <!-- No Phone element -->
+        <Address NearestAirport="Sky Harbor">
+            <Number>1375</Number>
+            <Street>E University Dr</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <!-- Hotel 3: Missing Rating (if made required in schema) -->
+    <Hotel> <!-- Removed Rating attribute -->
+        <Name>World of Hyatt</Name>
+        <Phone>800-233-1234</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>601</Number>
+            <Street>E. 6th Street</Street>
+            <City>Tempe</City>
+            <State>AZ</State>
+            <Zip>85281</Zip>
+        </Address>
+    </Hotel>
+    <!-- Hotel 4: Two Name elements -->
+    <Hotel Rating="4.5">
+        <Name>Holiday Inn Express and Suites</Name>
+        <Name>Hyatt Holiday Inn by Hilton</Name>
+        <Phone>877-666-3243</Phone>
+        <Address NearestAirport="Sky Harbor">
+            <Number>800</Number>
+            <Street>North 44th Street</Street>
+            <City>Phoenix</City>
+            <State>AZ</State>
+            <Zip>85008</Zip>
+        </Address>
+    </Hotel>
   <!--Hotel 5-->
   <Hotel Rating="4.0">
     <Name>Sonesta Simply Suites</Name>
@@ -125,4 +121,4 @@
       <Zip>85282</Zip>
     </Address>
   </Hotel>
-</Hotels>
+</Hotel>
