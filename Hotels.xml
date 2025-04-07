@@ -13,7 +13,7 @@
         </Address>
     </Hotel>
     <!-- Hotel 2 -->
-    <Hotel Rating="4.1">
+    <Hotel>
         <Name>Hotel Tempest</Name>
         <Phone>480-968-3451</Phone>
         <Phone>480-968-3452</Phone>
