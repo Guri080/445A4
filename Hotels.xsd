@@ -1,23 +1,14 @@
-<?xml version="1.0" encoding="utf-8"?>
-<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           elementFormDefault="qualified"
-           attributeFormDefault="unqualified">
-  
+<?xml version="1.0"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
   <xs:element name="Hotels">
     <xs:complexType>
       <xs:sequence>
-
         <xs:element name="Hotel" maxOccurs="unbounded">
           <xs:complexType>
             <xs:sequence>
-
-              <!-- Name element (string) -->
               <xs:element name="Name" type="xs:string"/>
-
-              <!-- One or more Phone elements -->
-              <xs:element name="Phone" type="xs:string" minOccurs="1" maxOccurs="unbounded"/>
-
-              <!-- Address element -->
+              <xs:element name="Phone" type="xs:string" maxOccurs="unbounded" minOccurs="1"/>
               <xs:element name="Address">
                 <xs:complexType>
                   <xs:sequence>
@@ -25,8 +16,6 @@
                     <xs:element name="Street" type="xs:string"/>
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
-
-                    <!-- Zip must be 5 digits-->
                     <xs:element name="Zip">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
@@ -35,16 +24,11 @@
                       </xs:simpleType>
                     </xs:element>
                   </xs:sequence>
-
-                  <!-- NearestAirport is OPTIONAL -->
-                  <xs:attribute name="NearstAirport" type="xs:string" use="optional"/>
+                  <xs:attribute name="NeasAirport" type="xs:string" use="required"/>
                 </xs:complexType>
               </xs:element>
-
             </xs:sequence>
-
-            <!-- Rating is REQUIRED -->
-            <xs:attribute name="Rating" use="required">
+            <xs:attribute name="Rating">
               <xs:simpleType>
                 <xs:restriction base="xs:decimal">
                   <xs:minInclusive value="0"/>
@@ -52,12 +36,9 @@
                 </xs:restriction>
               </xs:simpleType>
             </xs:attribute>
-
           </xs:complexType>
         </xs:element>
-
       </xs:sequence>
     </xs:complexType>
   </xs:element>
-
 </xs:schema>
