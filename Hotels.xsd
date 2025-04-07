@@ -26,7 +26,7 @@
                     <xs:element name="City" type="xs:string"/>
                     <xs:element name="State" type="xs:string"/>
 
-                    <!-- Zip must be 5 digits or 5+4 (##### or #####-####) -->
+                    <!-- Zip must be 5 digits-->
                     <xs:element name="Zip">
                       <xs:simpleType>
                         <xs:restriction base="xs:string">
